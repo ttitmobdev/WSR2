@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WSR-2</string>
+    <string name="auth">Авторизация</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="signIn">Войти</string>
+    <string name="rooms">Список комнат</string>
+    <string name="follow">Отслеживание</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+</resources>
