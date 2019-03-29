@@ -10,4 +10,7 @@
     <string name="close">Close</string>
     <string name="on">On</string>
     <string name="off">Off</string>
+    <string name="map">Местоположение</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="gallery">Галерея</string>
 </resources>

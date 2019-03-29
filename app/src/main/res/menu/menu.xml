@@ -11,5 +11,15 @@
             android:title="@string/follow"
             android:id="@+id/followRoomsMenu"/>
     </group>
+    <group android:checkableBehavior="none">
+        <item
+            android:title="@string/map"
+            android:id="@+id/mapMenu"/>
+    </group>
+    <group android:checkableBehavior="none">
+        <item
+            android:title="@string/gallery"
+            android:id="@+id/galleryMenu"/>
+    </group>
 
 </menu>

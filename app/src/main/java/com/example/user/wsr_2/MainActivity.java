@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.user.wsr_2.Galary.GalaryActivity;
 import com.example.user.wsr_2.Room.RoomsActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -31,6 +32,14 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.followRoomsMenu:
                         Intent re = new Intent(MainActivity.this,FollowRooms.class);
                         startActivity(re);
+                        break;
+                    case R.id.mapMenu:
+                        Intent map = new Intent(MainActivity.this,MapsActivity.class);
+                        startActivity(map);
+                        break;
+                    case R.id.galleryMenu:
+                        Intent gal = new Intent(MainActivity.this,GalaryActivity.class);
+                        startActivity(gal);
                         break;
 
                 }
